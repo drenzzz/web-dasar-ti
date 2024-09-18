@@ -3,83 +3,9 @@
 	<head>
 	<title>CSS Layout</title>
 	<meta name="author" content="Naufal Nazya"> 
+	<link rel="stylesheet" href="assets/styles/style.css">
     <style>
-      body {
-        margin: 20px;
-        padding: 0;
-        font-family: Arial, sans-serif;
-        background-color: #f0f0f0;
-      }
 
-      .container {
-        display: grid;
-        grid-template-areas:
-          "header header header"
-          "left-sidebar content content"
-          "footer footer footer";
-        grid-template-rows: auto 1fr auto;
-        grid-template-columns: 1fr 2fr;
-        width: 100%;
-        margin: 0 auto;
-        background-color: #fff;
-      }
-
-      .header {
-        grid-area: header;
-        background-color: #eb4e1a;
-        color: white;
-        text-align: center;
-        padding: 20px 0;
-        font-size: 34px;
-        font-weight: bold;
-      }
-
-      .left-sidebar {
-        grid-area: left-sidebar;
-        background-color: #7a9eb9;
-        padding: 30px;
-      }
-
-      .left-sidebar h2,
-      .left-sidebar h3 {
-        margin-top: 0;
-		
-      }
-	  
-	  .left-sidebar h2 {
-        margin-top: 0;
-		color: white;
-		
-      }
-
-      .left-sidebar ul {
-        list-style-type: none;
-        padding: 0;
-      }
-
-      .left-sidebar li {
-        margin: 5px 0;
-		color: white;
-      }
-
-      .content {
-        grid-area: content;
-        padding: 20px;
-        background-color: #ffffff;
-      }
-
-      .content h2 {
-        margin-top: 0;
-      }
-
-      .footer {
-        grid-area: footer;
-        background-color: #eb4e1a;
-        color: white;
-        text-align: center;
-        padding: 20px 0;
-        font-size: 14px;
-      }
     </style>
 
   </head>
@@ -87,28 +13,19 @@
     <div class="container">
       <div class="header">Teknologi Informasi</div>
       <div class="left-sidebar">
-        <h2>Homepage</h2>
+        <h2><a href="index.html" title="Homepage">Homepage</a></h2>
         <h3>Program Studi</h3>
         <ul>
-          <li>D3 Teknik Komputer</li>
-          <li>D3 Manajemen Informatika</li>
-          <li>D4 Teknologi Rekayasa Perangkat Lunak</li>
-          <li>D4 Animasi</li>
+            <li><a href="ti-tk.html" title="D3 Teknik Komputer">D3 Teknik Komputer</a></li>
+			      <li><a href="ti-mi.html" title="D3 Manajemen Informatika">D3 Manajemen Informatika</a></li>
+		      	<li><a href="ti-trpl.html" title="D4 Teknologi Rekayasa Perangkat Lunak">D4 Teknologi Rekayasa Perangkat Lunak</a></li>
+		      	<li><a href="ti-anim.html" title="D4 Animasi">D4 Animasi</a></li>
         </ul>
       </div>
       <div class="content">
-        <h2>Selamat Datang</h2>
+        <h2>Program Studi D4 Animasi</h2>
         <p>
-          Jurusan Teknologi Informasi menghasilkan tenaga profesional tingkat
-          ahli madya di bidang Teknologi Informasi, khususnya pengelolaan
-          informasi berbasis komputer sehingga mampu bekerja di berbagai
-          instansi, perusahaan organisasi dan bisnis modern.
-        </p>
-        <p>
-          Jurusan Teknologi Informasi memiliki fasilitas yang lengkap seperti
-          Air Conditioner, LED Projector, Labor Komputer dengan spesifikasi yang
-          tinggi, ruangan yang nyaman dan lingkungan yang baik saat pelaksanaan
-          pembelajaran.
+          Belum ada deskripsi animasi bjir.
         </p>
       </div>
       <div class="footer">&copy; 2024 TI PNP | Politeknik Negeri Padang</div>
